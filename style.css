@@ -1,0 +1,239 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+  
+}
+
+#title {
+    background-color: #ffc107;
+    color: #212529;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-top: 20%;
+}
+
+.container-fluid {
+    padding: 0 15% 10% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 0 0 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+    
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    font-weight:400;
+}
+
+
+
+/* Download Buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img {
+    width: 28%;
+    transform: rotate(14deg);
+    margin-left: 150px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    margin-top: 50px;
+    
+    position: absolute;
+        
+}
+
+/* Features */
+#features {
+    padding: 8% 0 5% 0;
+    color: #212529;
+    
+    position: relative;
+    background-color: #fff;
+    top: -1rem;
+    
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.feature-icon {
+    margin-bottom: 2rem;
+    opacity: 85%;
+    color: #212529;
+}
+
+.feature-icon:hover {
+    opacity: 100%;
+}
+
+h3 {
+    font-weight: 900;
+}
+
+/* Testimonials */
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #212529;
+    color: #fff;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 400;
+   
+
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #ffc107;
+    border-width: 4px;
+    margin: 10px;
+}
+
+.testimonial-name {
+    color: #ffc107;
+    font-size: 2rem;
+}
+
+.carousel-arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.carousel-item {
+    padding: 10% 10%;
+}
+
+/* Press */
+
+#press {
+    text-align: center;
+    padding-bottom: 5%;
+    background-color: #212529;
+}
+
+
+/* Pricing Cards */
+
+#pricing {
+    text-align: center;
+    margin-top: 5rem;
+    padding: 3%;
+}
+
+.pricing-column {
+    border-style: none;
+}
+
+
+.card-header {
+    margin: 0;
+    padding: 2rem 0 1.5rem 0;
+}
+
+/* CTA */
+
+#cta {
+    text-align: center;
+    padding: 10% 5% 5% 5%;
+    background-color: #ffc107;
+    margin: 0%;
+}
+
+/* footer */
+
+#footer {
+    text-align: center;
+    background-color: #212529;
+    color: #ffc107;
+    
+    padding: 3% 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    margin:0 10px 30px 10px;
+    opacity: 80%;
+}
+
+.social-icon:hover {
+   opacity: 100%;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+
+/* Responsiveness stuff */
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+  
+    .title-img {
+        
+        transform: rotate(0);
+        position: static;
+        width: 80%;
+        margin: 0;
+        padding: 10% 0 6% 0;
+            
+    }
+
+    #features {
+        position: static;
+    }
+
+    .carousel-item {
+        padding: 10% 20%;
+    }
+
+    .card {
+        margin: 5% 0;
+    }
+}
