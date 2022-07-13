@@ -236,4 +236,11 @@ a:hover {
     .card {
         margin: 5% 0;
     }
+
+    .testimonial-text {
+        font-size: 1rem;
+    }
+    .testimonial-name {
+        font-size: 1rem;
+    }
 }
