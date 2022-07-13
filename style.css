@@ -211,6 +211,12 @@ a:hover {
         text-align: center;
     }
   
+    .page-headline {
+    
+        text-align: center;
+        
+    }
+
     .title-img {
         
         transform: rotate(0);
