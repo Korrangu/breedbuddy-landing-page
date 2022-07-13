@@ -247,6 +247,7 @@ a:hover {
     }
 
     .testimonial-img {
+        width: 20%;
         border-width: 1px;
     }
 }
