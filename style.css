@@ -245,4 +245,8 @@ a:hover {
     .testimonial-name {
         font-size: 1rem;
     }
+
+    .testimonial-img {
+        border-width: 1px;
+    }
 }
